@@ -21,6 +21,7 @@ $req_preparee->bindValue(2, $nb_employes_par_page, PDO::PARAM_INT);
 
 //On execute la requete
 $req_preparee->execute();
+
 //On recupere les lignes resultats sous forme de tableau associatif
 $employes = $req_preparee->fetchAll(PDO::FETCH_ASSOC);
 

@@ -7,7 +7,7 @@
 function db_connexion()
 {
     //Les paprametres de connexion à la base de données
-    $database = "j4lcorporation_dawm";
+    $database = "dwwm_db";
     $user = "root";
     $pass = "";
 
